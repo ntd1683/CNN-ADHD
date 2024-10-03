@@ -56,4 +56,4 @@ columns_to_select = [
 final_df = merged_df[columns_to_select]
 
 print(final_df.head())
-final_df.to_csv('final_merged_data.csv', index=False)
+final_df.to_csv('final_data.csv', index=False)
